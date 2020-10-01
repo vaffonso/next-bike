@@ -1,0 +1,17 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-sans;
+        @apply bg-gradient-to-r from-teal-400 to-blue-500;
+    }
+}
+
+/* .bg {
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 50%, rgba(2,0,36,1) 50%);
+} */
